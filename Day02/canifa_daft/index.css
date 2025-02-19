@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: red;
+}
+
+section {
+  padding: 100px 0;
+  border: 5px dashed black;
+}
+
+#section-01 {
+  background-color: yellow;
+}
+
+footer {
+  background-color: blue;
+}

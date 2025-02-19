@@ -1,0 +1,30 @@
+html {
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  background-color: gray;
+  width: 30%;
+  min-width: 200px;
+}
+
+.right-content {
+  background-color: pink;
+  width: 70%;
+}
+
+p {
+  font-size: 1.5rem; /* 16px + 16px/2 = 24px */
+}
+
+h1 {
+  font-size: 48px;
+  border: 2em solid red;
+}
+
+/* ! responsive: thường sử dụng đơn vị đo tương đối để dễ điều chỉnh và tối ưu */

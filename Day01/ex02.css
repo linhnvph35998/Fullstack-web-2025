@@ -1,0 +1,114 @@
+/* 
+* Code HTML + CSS:
+* - Code từ tổng quan đến chi tiết.
+* - Code từ ngoài vào trong.
+* - Code từ trên xuống dưới.
+* - Code từ trái qua phải.
+* - Code từ những thuộc tính bố cục, kích thước, layout -> kiểu dáng, phong cách
+*/
+
+/* Code sạch = clean code */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Inter", serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #eee;
+}
+
+/* * = universal selector */
+form {
+  /* box-sizing: content-box; */
+  width: 580px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  padding: 80px;
+  /* red - green blue alpha */
+  /* Theo chiều kim đồng hồ: trên phải dưới trái */
+  /* Trên Trái-phải Dưới */
+  /* Trên-dưới Trái-phải*/
+  margin: 100px auto 0;
+}
+/* 
+* Content box:
+* - width = content
+* -> VD: 400px + (30px + 30px) + (10px + 10px)
+
+* Border box:
+* - width = content + padding + border
+* -> VD: 400px + (30px + 30px) + (10px + 10px)
+*/
+
+.form__title {
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+p.des {
+  color: #545454;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 28px 36px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+input:last-of-type {
+  margin-bottom: 48px;
+}
+
+.hr-container {
+  display: flex;
+  align-items: center;
+}
+
+.hr-container hr {
+  flex: 1; /* Đường ngang co giãn theo chiều ngang */
+  margin-left: 10px; /* Khoảng cách với text */
+  border: none;
+  height: 1px;
+  background-color: black;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  margin: 46px auto;
+}
+
+.icon {
+  padding: 12px 28px;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+form button {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #0366ff;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}

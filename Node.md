@@ -1,0 +1,7 @@
+- Thẻ block và thẻ inline Thẻ block: Luôn xuống dòng trước và sau nội dung Thẻ inline: image, link, strong, em, code, span,
+- Đơn vị đo trong CSS
+  - Đơn vị tuyệt đối: px, cm, mm, in, pt, pc
+  - Đơn vị tương đối: %, em, rem, vw, vh, vmin, vmax
+    - %: Phần trăm của phần tử cha
+      - em: xử lý theo font-size của thẻ hiện tại
+      - rem: root em, phần trăm của phần tử gốc (tính theo đơn vị của font-size của thẻ html)
