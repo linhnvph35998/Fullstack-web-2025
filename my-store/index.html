@@ -13,8 +13,14 @@
     />
     <!-- reset css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- bootstrap -->
-    <link rel="stylesheet" href="./assets/css/bootstrap-grid.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/bootstrap-grid.css" /> -->
 
     <link rel="stylesheet" href="./assets/css/common.css" />
 
@@ -23,33 +29,310 @@
   </head>
   <body>
     <header>
-      <div>
+      <div class="header-logo">
         <img src="./assets/imgs/logo.svg" alt="" />
-        <ul>
-          <li>Home</li>
-          <li>Men</li>
-          <li>Women</li>
-          <li>Sale</li>
-        </ul>
+      </div>
+      <ul class="header-menu">
+        <li class="menu-item">
+          <a href="#">Home</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Men</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Women</a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="active">Sale</a>
+        </li>
+      </ul>
+      <div class="header-user">
+        <a href="./login">Login <i class="bx bxs-user"></i> </a>
+        <a href="./cart">Cart <i class="bx bx-cart-alt"></i></a>
       </div>
     </header>
-    <section id="hero"></section>
-    <div class="container">
-      <section id="categorys">
-        <div class="row">
-          <div class="col-3"><div class="box">box 1</div></div>
-          <div class="col-3"><div class="box">box 2</div></div>
-          <div class="col-3"><div class="box">box 3</div></div>
-          <div class="col-3"><div class="box">box 4</div></div>
+    <div id="main">
+      <div class="banner">
+        <div class="content">
+          <h2>
+            Exercise more and more with <br />
+            <span class="highlight"> MyShop. Number #1</span> trusted fitness tool
+            website
+          </h2>
+          <button class="btn">View More</button>
+          <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <img src="./assets/imgs/banner.png" alt="" class="banner-img" />
+      </div>
+  
+      <div class="categorys">
+        <section>
+          <div class="category">
+            <div class="category-content">
+              <h3>Mens Training Shoe</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue
+                orci, pretium nibh eget.
+              </p>
+              <button class="btn">View More</button>
+            </div>
+            <div class="category-img">
+              <img src="./assets/imgs/category1.png" alt="" />
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="category">
+            <div class="category-content">
+              <h3>5kg Dumbell Pair</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue
+                orci, pretium nibh eget.
+              </p>
+              <button class="btn">View More</button>
+            </div>
+            <div class="category-img">
+              <img src="./assets/imgs/category2.png" alt="" />
+            </div>
+          </div>
+        </section>
+      </div>
+      <section id="products">
+        <div class="products-item">
+          <div class="product">
+            <img src="./assets/imgs/product1.png" alt="" />
+            <h4>Speed Rope-Blue</h4>
+            <p>Rs. 800</p>
+            <br />
+            <div class="product-action">
+              <button class="btn">Add To Cart</button> <i class="bx bx-heart"></i>
+            </div>
+          </div>
+  
+          <div class="product">
+            <img src="./assets/imgs/product2.png" alt="" />
+            <h4>Speed Rope-Blue</h4>
+            <p>Rs. 800</p>
+            <br />
+            <div class="product-action">
+              <button class="btn">Add To Cart</button> <i class="bx bx-heart"></i>
+            </div>
+          </div>
+  
+          <div class="product">
+            <img src="./assets/imgs/product3.png" alt="" />
+            <h4>Speed Rope-Blue</h4>
+            <p>Rs. 800</p>
+            <br />
+            <div class="product-action">
+              <button class="btn">Add To Cart</button> <i class="bx bx-heart"></i>
+            </div>
+          </div>
+  
+          <div class="product">
+            <img src="./assets/imgs/product4.png" alt="" />
+            <h4>Speed Rope-Blue</h4>
+            <p>Rs. 800</p>
+            <br />
+            <div class="product-action">
+              <button class="btn">Add To Cart</button> <i class="bx bx-heart"></i>
+            </div>
+          </div>
+  
+          <div class="product">
+            <img src="./assets/imgs/product5.png" alt="" />
+            <h4>Speed Rope-Blue</h4>
+            <p>Rs. 800</p>
+            <br />
+            <div class="product-action">
+              <button class="btn">Add To Cart</button> <i class="bx bx-heart"></i>
+            </div>
+          </div>
+  
+          <div class="product">
+            <img src="./assets/imgs/product6.png" alt="" />
+            <h4>Speed Rope-Blue</h4>
+            <p>Rs. 800</p>
+            <br />
+            <div class="product-action">
+              <button class="btn">Add To Cart</button> <i class="bx bx-heart"></i>
+            </div>
+          </div>
+  
+          <div class="product">
+            <img src="./assets/imgs/product7.png" alt="" />
+            <h4>Speed Rope-Blue</h4>
+            <p>Rs. 800</p>
+            <br />
+            <div class="product-action">
+              <button class="btn">Add To Cart</button> <i class="bx bx-heart"></i>
+            </div>
+          </div>
+  
+          <div class="product">
+            <img src="./assets/imgs/product8.png" alt="" />
+            <h4>Speed Rope-Blue</h4>
+            <p>Rs. 800</p>
+            <br />
+            <div class="product-action">
+              <button class="btn">Add To Cart</button> <i class="bx bx-heart"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="view-more-container">
+        <hr />
+        <button class="view-more-btn">View More</button>
+        <hr />
+      </div>
+  
+      <div class="banner-product">
+        <div class="content-bn-product">
+          <h2>
+            <span class="highlight">Reebok Les Mills </span> Bodypump
+            PerfCottnTank Mer's Performance Sleeveless Top
+          </h2>
+          <button class="btn">View More</button>
+          <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <img
+          src="./assets/imgs/product-banner.png"
+          alt=""
+          class="banner-img-product"
+        />
+      </div>
+      <section id="collection-men">
+        <div class="collection">
+          <div class="collection-content">
+            <h5>MEN</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna
+              sed sed pharetra dictum id mi at blandit.
+            </p>
+            <button>Shop Now</button>
+          </div>
+          <div class="right">
+            <div class="collection-product">
+              <img src="./assets/imgs/collection-men1.png" alt="Shirt" />
+              <p>Shirt</p>
+              <p>Rs. 1300</p>
+            </div>
+            <div class="collection-product">
+              <img src="./assets/imgs/collection-men2.png" alt="Shorts" />
+              <p>Shorts</p>
+              <p>Rs. 1300</p>
+            </div>
+            <div class="collection-product">
+              <img src="./assets/imgs/collection-men3.png" alt="Shoes" />
+              <p>Shoes</p>
+              <p>Rs. 1300</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="collection-women">
+        <div class="collection">
+          <div class="collection-content">
+            <h5>Women</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna
+              sed sed pharetra dictum id mi at blandit.
+            </p>
+            <button>Shop Now</button>
+          </div>
+          <div class="right">
+            <div class="collection-product">
+              <img src="./assets/imgs/collection-women1.png" alt="Shirt" />
+              <p>Shirt</p>
+              <p>Rs. 1300</p>
+            </div>
+            <div class="collection-product">
+              <img src="./assets/imgs/collection-women2.png" alt="Shorts" />
+              <p>Shorts</p>
+              <p>Rs. 1300</p>
+            </div>
+            <div class="collection-product">
+              <img src="./assets/imgs/collection-women3.png" alt="Shoes" />
+              <p>Shoes</p>
+              <p>Rs. 1300</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="collection-sale"></section>
+      <section id="sign-mail">
+        <div class="collection">
+          <div class="collection-content">
+            <h5>SALE</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna
+              sed sed pharetra dictum id mi at blandit.
+            </p>
+            <button>Shop Now</button>
+          </div>
+          <div class="right">
+            <div>
+              <img src="./assets/imgs/collection-sale1.png" alt="Shirt" />
+            </div>
+            <div>
+              <img src="./assets/imgs/collection-sale2.png" alt="Shorts" />
+            </div>
+            <div>
+              <img src="./assets/imgs/collection-sale3.png" alt="Shoes" />
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section>
+        <div class="comment">
+          <div class="comment-content">
+            <h6>Join Our News Letter</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sit
+              integer eget neque, ante.
+            </p>
+          </div>
+          <div class="comment-form">
+            <input type="text" name="" id="" />
+            <button>Subscribe</button>
+          </div>
         </div>
       </section>
     </div>
-    <section id="products"></section>
-    <section id="banner-product"></section>
-    <section id="collection-men" class="collection"></section>
-    <section id="collection-women" class="collection"></section>
-    <section id="collection-sale" class="collection"></section>
-    <section id="sign-mail"></section>
-    <footer></footer>
+    <footer>
+      <div class="footer-logo">
+        <img src="./assets/imgs/logo.svg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit
+          malesuada dapibus ut pulvinar neque arcu, commodo. Pharetra nisi
+          egestas nisi fermentum. Sollicitudin egestas senectus pellentesque
+          enim mauris vel odio commodo. Pellentesque orci vestibulum sed in
+          molestie consequat.
+        </p>
+      </div>
+      <div class="contact">
+        <h3>Contact US</h3>
+        <p><i class="bx bx-phone"></i> (808)-555-121</p>
+        <p><i class="bx bx-message"></i> dummyemail@xyz.com</p>
+        <p><i class="bx bx-map"></i>Fake Address</p>
+      </div>
+      <div class="about">
+        <h3>About Us</h3>
+        <p>FAQ</p>
+        <p>Support</p>
+        <p>Privacy & Policy</p>
+      </div>
+    </footer>
   </body>
 </html>
